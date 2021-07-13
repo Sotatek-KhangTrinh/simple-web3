@@ -19,7 +19,7 @@ const divide = (start, end, step) => {
     var web3 = new Web3(
       "https://mainnet.infura.io/v3/710b741fe9924cc8a5fa4fa20a89e620"
     );
-    const startBlock = 12534247;
+    const startBlock = 12810000;
     const lastestBlock = 12817416;
     // 1 Pool vi du
     const contract = new web3.eth.Contract(
